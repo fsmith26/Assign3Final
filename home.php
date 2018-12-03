@@ -4,16 +4,20 @@
 <meta charset="utf-8">
 <title>Fletchers home page</title>
 <style>
-.center {      <!-- CSS to center the title Card -->
+div.center{ 
 	text-align: center;
-	color: black;
+	color: blue;
+	text-decoration: underline;
 	}
 </style>
+<div class="center">
+<h1> Fletcher's Online Store!</h1> <!--Header for titleof website! Centered using CSS -->
+</div>
 </head>
 <body>
 
 <?php include 'connectdb.php';?> 	<!--call php to connect to db, input sql password -->
-<h1 class="center">Fletcher's Online Store!</h1> <!--Header for titleof website! --> 
+ 
 
 <!--task 1, list customer information, on select list purchases -->
 	<form action="getProds.php" method="post">  <!--html form for task 1 (list purchases) -->
